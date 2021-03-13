@@ -1,4 +1,4 @@
-FROM node:current-alpine3.13
+FROM node:15.11.0-alpine3.10
 
 WORKDIR /usr/chatidbot
 COPY ./package.json  ./
